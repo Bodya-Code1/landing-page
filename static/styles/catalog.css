@@ -1,0 +1,80 @@
+/* Catalog start */
+
+.catalog {
+    background-color: #F6F6F6;
+    padding: 112px 0 96px 0;
+}
+
+.container-portfolio {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.catalog-title {
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.catalog-block {
+    display: flex;
+    /* justify-content: space-between;  */
+    justify-content: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+} 
+
+.catalog-card {
+    max-width: 470px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.catalog-card img {
+    display: block;
+}
+
+.catalog-card__buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fitting-button {
+    padding: 10px;    
+    text-transform: uppercase;
+    color: rgb(45, 74, 82);
+    background-color: #F6F6F6;
+    border: none;  
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.catalog-card__tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #86a7ea;
+}
+
+.catalog__images {
+    max-width: 100%;
+}
+/* Catalog end */
+
+@media (max-width: 972px){
+    .contacts__image1 {
+        display: none;
+    }
+    .catalog-block {
+        justify-content: center;
+    }
+    .catalog-card {
+        margin-bottom: 60px;
+    }
+    }
+    
